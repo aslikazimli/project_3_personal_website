@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Asli Kazimli</div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="pookies.html">My Pookies</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to My Website!</h1>
+            
+                <button class="cta-button" onclick="document.querySelector('.features').scrollIntoView({behavior: 'smooth'})">Explore My Me!</button>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="feature-card">
+                <div class="feature-icon">📚</div>
+                <h3>About Me</h3>
+                <p>Learn more about who I am and what I love</p>
+                <a href="about.html" class="feature-link">Read More →</a>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">💼</div>
+                <h3>My Projects</h3>
+                <p>Check out the amazing things I've created</p>
+                <a href="projects.html" class="feature-link">View Projects →</a>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🐾</div>
+                <h3>My Pookies</h3>
+                <p>Meet my beloved friends</p>
+                <a href="pookies.html" class="feature-link">See Pookies →</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Personal Website.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
