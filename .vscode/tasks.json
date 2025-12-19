@@ -18,6 +18,15 @@
 			"isBackground": false,
 			"problemMatcher": [],
 			"group": ""
+		},
+		{
+			"label": "Git Remote",
+			"type": "shell",
+			"command": "git remote -v",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": ""
 		}
 	]
 }

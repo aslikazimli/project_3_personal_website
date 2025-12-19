@@ -583,6 +583,22 @@ footer {
     margin-top: 4rem;
 }
 
+.social-links {
+    margin-bottom: 1rem;
+}
+
+.social-links a {
+    color: var(--primary-pink);
+    font-size: 2rem;
+    margin: 0 0.5rem;
+    transition: var(--transition);
+}
+
+.social-links a:hover {
+    color: var(--accent);
+    transform: scale(1.1);
+}
+
 /* ==================== RESPONSIVE DESIGN ==================== */
 
 @media (max-width: 768px) {
