@@ -19,44 +19,29 @@
 }
 
 .home-page {
-    --primary-pink: #ffffff;
-    --light-pink: #cccccc;
-    --pale-pink: #666666;
-    --white: #000000;
-    --dark-text: #ffffff;
-    --light-text: #cccccc;
-    --accent: #ffffff;
-    --shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    --primary-pink: #ff69b4;   /* hot pink */
+    --light-pink: #ffb6d9;     /* light pink */
+    --pale-pink: #ffe4f0;      /* very pale pink */
+    --white: #ffffff;           /* white */
+    --dark-text: #333333;       /* dark gray text */
+    --light-text: #666666;      /* medium gray text */
+    --accent: #ff1493;          /* accent pink */
+    --shadow: 0 4px 15px rgba(255, 105, 180, 0.2);
 }
 
 .home-page body {
-    background: #000000 !important;
+    background: #ffe4f0; /* pale pink background */
 }
 
 .home-page .cta-button {
-    background: linear-gradient(135deg, #000000 0%, #333333 100%);
+    background: linear-gradient(135deg, #ff69b4 0%, #ffb6d9 100%);
     color: #ffffff;
 }
 
 .home-page .cta-button:hover {
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 8px 25px rgba(255, 105, 180, 0.5);
 }
 
-.home-page .feature-card:hover {
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
-}
-
-.home-page .navbar {
-    background: #111111;
-}
-
-.home-page .hero {
-    background: #111111;
-}
-
-.home-page .features {
-    background: #111111;
-}
 
 html {
     scroll-behavior: smooth;
@@ -179,7 +164,7 @@ main {
 }
 
 .red-text {
-    color: #ffffff !important;
+    color: #ff1493 !important;
 }
 
 .hero-subtitle {
