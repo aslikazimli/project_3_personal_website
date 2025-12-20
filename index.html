@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="home-page">
+    <!-- Navbar -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="logo">Asli Kazimli</div>
@@ -21,14 +22,26 @@
     </nav>
 
     <main>
+        <!-- Hero Section -->
         <section class="hero">
             <div class="hero-content">
-                <h1 class="red-text">Welcome to My Website!</h1>
-            
-                <button class="cta-button" onclick="document.querySelector('.features').scrollIntoView({behavior: 'smooth'})">Explore My Me!</button>
+                <h1>Welcome to My Website!</h1>
+                
+               
             </div>
         </section>
 
+        <!-- Profile Photo & Short Summary Section -->
+        <section class="home-intro">
+            <div class="profile-photo">
+                <img src="images/profile2.jpg" alt="Asli Kazimli">
+            </div>
+            <div class="intro-text">
+                <p>I'm a student who loves writing, poetry, and music. Explore my world of creativity and expression.</p>
+            </div>
+        </section>
+
+        <!-- Features Section -->
         <section class="features">
             <div class="feature-card">
                 <div class="feature-icon">📚</div>
@@ -45,12 +58,13 @@
             <div class="feature-card">
                 <div class="feature-icon">😽</div>
                 <h3>Memories</h3>
-                <p>See the lovely moments from this year</p>
+                <p>See my favorite moments</p>
                 <a href="pookies.html" class="feature-link">See Pookies →</a>
             </div>
         </section>
     </main>
 
+    <!-- Footer -->
     <footer>
         <div class="social-links">
             <a href="https://github.com/aslikazimli" target="_blank" title="My GitHub"><i class="fab fa-github"></i></a>
